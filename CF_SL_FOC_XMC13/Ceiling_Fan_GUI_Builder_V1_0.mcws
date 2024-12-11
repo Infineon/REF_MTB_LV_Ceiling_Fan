@@ -1,0 +1,4038 @@
+{
+	"version": "2.3.0",
+	"components": [
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PI_Speed.Kp",
+					"address": 536884764,
+					"type": "uint16_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 16
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": false,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 65535,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				6,
+				13
+			],
+			"componentIndex": 1,
+			"lockedTo": 15,
+			"size": [
+				4,
+				5
+			],
+			"value": [
+				12000
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PI_Speed.Ki",
+					"address": 536884766,
+					"type": "uint16_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 16
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": false,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 65535,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				6,
+				20
+			],
+			"componentIndex": 2,
+			"lockedTo": 15,
+			"size": [
+				4,
+				5
+			],
+			"value": [
+				2
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PI_Speed.Scale_KpKi",
+					"address": 536884768,
+					"type": "int16_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 16
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": false,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 65535,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				6,
+				27
+			],
+			"componentIndex": 3,
+			"lockedTo": 15,
+			"size": [
+				4,
+				5
+			],
+			"value": [
+				12
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PI_Flux.Kp",
+					"address": 536884804,
+					"type": "uint16_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 16
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": false,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 65535,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				18,
+				13
+			],
+			"componentIndex": 4,
+			"lockedTo": 15,
+			"size": [
+				4,
+				5
+			],
+			"value": [
+				1544
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PI_Flux.Ki",
+					"address": 536884806,
+					"type": "uint16_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 16
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": false,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 65535,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				18,
+				20
+			],
+			"componentIndex": 5,
+			"lockedTo": 15,
+			"size": [
+				4,
+				5
+			],
+			"value": [
+				19
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PI_Flux.Scale_KpKi",
+					"address": 536884808,
+					"type": "int16_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 16
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": false,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 65535,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				18,
+				27
+			],
+			"componentIndex": 6,
+			"lockedTo": 15,
+			"size": [
+				4,
+				5
+			],
+			"value": [
+				13
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PI_Torque.Kp",
+					"address": 536884844,
+					"type": "uint16_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 16
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": false,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 65535,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				12,
+				13
+			],
+			"componentIndex": 7,
+			"lockedTo": 15,
+			"size": [
+				4,
+				5
+			],
+			"value": [
+				1544
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PI_Torque.Ki",
+					"address": 536884846,
+					"type": "uint16_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 16
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": false,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 65535,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				12,
+				20
+			],
+			"componentIndex": 8,
+			"lockedTo": 15,
+			"size": [
+				4,
+				5
+			],
+			"value": [
+				19
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PI_Torque.Scale_KpKi",
+					"address": 536884848,
+					"type": "int16_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 16
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": false,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 65535,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				12,
+				27
+			],
+			"componentIndex": 9,
+			"lockedTo": 15,
+			"size": [
+				4,
+				5
+			],
+			"value": [
+				13
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"content": "P setting",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				2,
+				13
+			],
+			"componentIndex": 12,
+			"lockedTo": 15,
+			"size": [
+				5,
+				6
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"content": "I setting",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				2,
+				20
+			],
+			"componentIndex": 13,
+			"lockedTo": 15,
+			"size": [
+				5,
+				6
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"content": "SCALEKPKI",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				2,
+				27
+			],
+			"componentIndex": 14,
+			"lockedTo": 15,
+			"size": [
+				5,
+				6
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"borderSize": 1,
+			"borderColor": "#EEEEEE",
+			"borderRadius": 1,
+			"backgroundColor": "#FFFFFF",
+			"componentType": "containerComponent",
+			"position": [
+				1,
+				1
+			],
+			"componentIndex": 15,
+			"lockedTo": -1,
+			"size": [
+				27,
+				83
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				2
+			],
+			"maxSize": [
+				100,
+				100
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"content": "Speed Control",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				6,
+				2
+			],
+			"componentIndex": 16,
+			"lockedTo": 15,
+			"size": [
+				5,
+				8
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"content": "Torque Control",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				12,
+				2
+			],
+			"componentIndex": 17,
+			"lockedTo": 15,
+			"size": [
+				5,
+				8
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"content": "Flux Control",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				18,
+				2
+			],
+			"componentIndex": 18,
+			"lockedTo": 15,
+			"size": [
+				5,
+				8
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"content": "PLL Control",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				24,
+				2
+			],
+			"componentIndex": 19,
+			"lockedTo": 15,
+			"size": [
+				5,
+				8
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_PLL_PI.kp",
+					"address": 536884724,
+					"type": "uint16_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 16
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": false,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 65535,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				24,
+				13
+			],
+			"componentIndex": 21,
+			"lockedTo": 15,
+			"size": [
+				4,
+				5
+			],
+			"value": [
+				20
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_PLL_PI.ki",
+					"address": 536884726,
+					"type": "uint16_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 16
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": false,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 65535,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				24,
+				20
+			],
+			"componentIndex": 24,
+			"lockedTo": 15,
+			"size": [
+				4,
+				5
+			],
+			"value": [
+				1
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_PLL_PI.scale_kp_ki",
+					"address": 536884728,
+					"type": "int16_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 16
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": false,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 65535,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				24,
+				27
+			],
+			"componentIndex": 25,
+			"lockedTo": 15,
+			"size": [
+				4,
+				5
+			],
+			"value": [
+				9
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"content": "PI error",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				2,
+				36
+			],
+			"componentIndex": 30,
+			"lockedTo": 15,
+			"size": [
+				5,
+				6
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"separatorColor": "#000000FF",
+			"orientation": "vertical",
+			"width": 2,
+			"componentType": "separatorComponent",
+			"position": [
+				1,
+				34
+			],
+			"componentIndex": 32,
+			"lockedTo": 15,
+			"size": [
+				27,
+				2
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				2
+			],
+			"maxSize": [
+				100,
+				2
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PI_Speed.error",
+					"address": 536884752,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				6,
+				36
+			],
+			"componentIndex": 33,
+			"lockedTo": 15,
+			"size": [
+				4,
+				5
+			],
+			"value": [
+				-3356
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"content": "Ik",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				2,
+				43
+			],
+			"componentIndex": 34,
+			"lockedTo": 15,
+			"size": [
+				5,
+				6
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"content": "Ik_Limit",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				2,
+				50
+			],
+			"componentIndex": 35,
+			"lockedTo": 15,
+			"size": [
+				5,
+				6
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"content": "Uk",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				2,
+				57
+			],
+			"componentIndex": 36,
+			"lockedTo": 15,
+			"size": [
+				5,
+				6
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"content": "Uk_Limit",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				2,
+				64
+			],
+			"componentIndex": 39,
+			"lockedTo": 15,
+			"size": [
+				5,
+				6
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PI_Speed.Ik",
+					"address": 536884760,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				6,
+				43
+			],
+			"componentIndex": 40,
+			"lockedTo": 15,
+			"size": [
+				4,
+				5
+			],
+			"value": [
+				4010504
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PI_Speed.Ik_limit_max",
+					"address": 536884776,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				6,
+				50
+			],
+			"componentIndex": 41,
+			"lockedTo": 15,
+			"size": [
+				4,
+				5
+			],
+			"value": [
+				107235712
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PI_Speed.Uk",
+					"address": 536884756,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				6,
+				57
+			],
+			"componentIndex": 42,
+			"lockedTo": 15,
+			"size": [
+				4,
+				5
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PI_Speed.Uk_limit_max",
+					"address": 536884784,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				6,
+				64
+			],
+			"componentIndex": 43,
+			"lockedTo": 15,
+			"size": [
+				4,
+				5
+			],
+			"value": [
+				12500
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "FOCInput.Ref_Speed",
+					"address": 536884992,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "Speed Ref",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				8,
+				36
+			],
+			"componentIndex": 44,
+			"lockedTo": 15,
+			"size": [
+				4,
+				4
+			],
+			"value": [
+				1030
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_PLL_ESTIMATOR.rotor_speed",
+					"address": 536884532,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				8,
+				50
+			],
+			"componentIndex": 46,
+			"lockedTo": 15,
+			"size": [
+				4,
+				4
+			],
+			"value": [
+				4387
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"content": "Speed Ref",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				8,
+				41
+			],
+			"componentIndex": 47,
+			"lockedTo": 15,
+			"size": [
+				5,
+				5
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"content": "Speed",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				8,
+				55
+			],
+			"componentIndex": 48,
+			"lockedTo": 15,
+			"size": [
+				5,
+				5
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PI_Torque.error",
+					"address": 536884832,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				12,
+				36
+			],
+			"componentIndex": 51,
+			"lockedTo": 15,
+			"size": [
+				4,
+				5
+			],
+			"value": [
+				-111
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PI_Torque.Ik",
+					"address": 536884840,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				12,
+				43
+			],
+			"componentIndex": 52,
+			"lockedTo": 15,
+			"size": [
+				4,
+				5
+			],
+			"value": [
+				8721079
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PI_Torque.Ik_limit_max",
+					"address": 536884856,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				12,
+				50
+			],
+			"componentIndex": 53,
+			"lockedTo": 15,
+			"size": [
+				4,
+				5
+			],
+			"value": [
+				298057728
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PI_Flux.Uk",
+					"address": 536884796,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				12,
+				57
+			],
+			"componentIndex": 54,
+			"lockedTo": 15,
+			"size": [
+				4,
+				5
+			],
+			"value": [
+				4176
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PI_Flux.Uk_limit_max",
+					"address": 536884824,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				12,
+				64
+			],
+			"componentIndex": 55,
+			"lockedTo": 15,
+			"size": [
+				4,
+				5
+			],
+			"value": [
+				32767
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "FOCInput.Ref_Iq",
+					"address": 536885008,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				14,
+				36
+			],
+			"componentIndex": 56,
+			"lockedTo": 15,
+			"size": [
+				4,
+				4
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "Park_Transform.Iq",
+					"address": 536884652,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				14,
+				50
+			],
+			"componentIndex": 57,
+			"lockedTo": 15,
+			"size": [
+				4,
+				4
+			],
+			"value": [
+				111
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"content": "Iq Ref",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				14,
+				41
+			],
+			"componentIndex": 58,
+			"lockedTo": 15,
+			"size": [
+				5,
+				5
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"content": "Iq",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				14,
+				55
+			],
+			"componentIndex": 59,
+			"lockedTo": 15,
+			"size": [
+				5,
+				5
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PI_Flux.error",
+					"address": 536884792,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				18,
+				36
+			],
+			"componentIndex": 60,
+			"lockedTo": 15,
+			"size": [
+				4,
+				5
+			],
+			"value": [
+				-257
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PI_Flux.Ik",
+					"address": 536884800,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				18,
+				43
+			],
+			"componentIndex": 61,
+			"lockedTo": 15,
+			"size": [
+				4,
+				5
+			],
+			"value": [
+				34608709
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PI_Torque.Ik_limit_max",
+					"address": 536884856,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				18,
+				50
+			],
+			"componentIndex": 62,
+			"lockedTo": 15,
+			"size": [
+				4,
+				5
+			],
+			"value": [
+				298057728
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PI_Torque.Uk",
+					"address": 536884836,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				18,
+				57
+			],
+			"componentIndex": 63,
+			"lockedTo": 15,
+			"size": [
+				4,
+				5
+			],
+			"value": [
+				1043
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PI_Torque.Uk_limit_max",
+					"address": 536884864,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				18,
+				64
+			],
+			"componentIndex": 64,
+			"lockedTo": 15,
+			"size": [
+				4,
+				5
+			],
+			"value": [
+				32767
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "FOCInput.Ref_Id",
+					"address": 536885004,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				20,
+				36
+			],
+			"componentIndex": 65,
+			"lockedTo": 15,
+			"size": [
+				4,
+				4
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "Park_Transform.Id",
+					"address": 536884648,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				20,
+				50
+			],
+			"componentIndex": 66,
+			"lockedTo": 15,
+			"size": [
+				4,
+				4
+			],
+			"value": [
+				257
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"content": "Id Ref",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				20,
+				41
+			],
+			"componentIndex": 67,
+			"lockedTo": 15,
+			"size": [
+				5,
+				5
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"content": "Id",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				20,
+				55
+			],
+			"componentIndex": 68,
+			"lockedTo": 15,
+			"size": [
+				5,
+				5
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_PLL_PI.error",
+					"address": 536884688,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				24,
+				36
+			],
+			"componentIndex": 69,
+			"lockedTo": 15,
+			"size": [
+				4,
+				5
+			],
+			"value": [
+				-225
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_PLL_PI.ik",
+					"address": 536884696,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				24,
+				43
+			],
+			"componentIndex": 70,
+			"lockedTo": 15,
+			"size": [
+				4,
+				5
+			],
+			"value": [
+				2253583
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_PLL_PI.ik_limit_max",
+					"address": 536884704,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				24,
+				50
+			],
+			"componentIndex": 71,
+			"lockedTo": 15,
+			"size": [
+				4,
+				5
+			],
+			"value": [
+				1073741824
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_PLL_PI.uk",
+					"address": 536884692,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				24,
+				57
+			],
+			"componentIndex": 72,
+			"lockedTo": 15,
+			"size": [
+				4,
+				5
+			],
+			"value": [
+				4392
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_PLL_PI.uk_limit_max",
+					"address": 536884712,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				24,
+				64
+			],
+			"componentIndex": 73,
+			"lockedTo": 15,
+			"size": [
+				4,
+				5
+			],
+			"value": [
+				32767
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"separatorColor": "#000000FF",
+			"orientation": "horizontal",
+			"width": 2,
+			"componentType": "separatorComponent",
+			"position": [
+				4,
+				1
+			],
+			"componentIndex": 79,
+			"lockedTo": 15,
+			"size": [
+				4,
+				70
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				2
+			],
+			"maxSize": [
+				4,
+				100
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "Setting Target Speed",
+			"variable": [
+				{
+					"symbol": "ADC.ADC_POT",
+					"address": 536884424,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"orientation": "horizontal",
+			"lowerLimit": 0,
+			"upperLimit": 4095,
+			"noTicks": 10,
+			"isDisplayPercentage": true,
+			"componentType": "sliderComponent",
+			"position": [
+				28,
+				1
+			],
+			"componentIndex": 81,
+			"lockedTo": 82,
+			"size": [
+				6,
+				14
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				6,
+				4
+			],
+			"maxSize": [
+				6,
+				40
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"borderSize": 1,
+			"borderColor": "#EEEEEE",
+			"borderRadius": 1,
+			"backgroundColor": "#FFFFFF",
+			"componentType": "containerComponent",
+			"position": [
+				28,
+				1
+			],
+			"componentIndex": 82,
+			"lockedTo": -1,
+			"size": [
+				19,
+				26
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				2
+			],
+			"maxSize": [
+				100,
+				100
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "ADC POT value",
+			"variable": [
+				{
+					"symbol": "ADC.ADC_POT",
+					"address": 536884424,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Center",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				28,
+				17
+			],
+			"componentIndex": 83,
+			"lockedTo": 82,
+			"size": [
+				5,
+				6
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "RPM",
+			"variable": [
+				{
+					"symbol": "Real_Speed_in_rpm",
+					"address": 536884748,
+					"type": "uint32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Center",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				33,
+				17
+			],
+			"componentIndex": 84,
+			"lockedTo": 82,
+			"size": [
+				5,
+				6
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "Motor Start Stop Switch",
+			"variable": [
+				{
+					"symbol": "Motor.motorstartstop",
+					"address": 536885076,
+					"type": "uint16_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 16
+				}
+			],
+			"maxVariables": 1,
+			"rotateSwitcher": false,
+			"positiveValue": 1,
+			"negativeValue": 0,
+			"topLabel": "Off",
+			"bottomLabel": "On",
+			"componentType": "buttonSwitch",
+			"position": [
+				34,
+				5
+			],
+			"componentIndex": 85,
+			"lockedTo": 82,
+			"size": [
+				12,
+				10
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				6,
+				2
+			],
+			"maxSize": [
+				15,
+				10
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "Fan Speed Lvl",
+			"variable": [
+				{
+					"symbol": "Motor.Speed_lvl",
+					"address": 536885132,
+					"type": "uint32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Center",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				38,
+				17
+			],
+			"componentIndex": 87,
+			"lockedTo": 82,
+			"size": [
+				5,
+				6
+			],
+			"value": [
+				2
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"borderSize": 4,
+			"borderColor": "#FF0000",
+			"borderRadius": 24,
+			"backgroundColor": "#E4C6C6",
+			"componentType": "containerComponent",
+			"position": [
+				45,
+				33
+			],
+			"componentIndex": 88,
+			"lockedTo": -1,
+			"size": [
+				8,
+				8
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				2
+			],
+			"maxSize": [
+				100,
+				100
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "Emergency STOP",
+			"variable": [
+				{
+					"symbol": "Motor.Emergency_Stop",
+					"address": 536885080,
+					"type": "uint16_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 16
+				}
+			],
+			"maxVariables": 1,
+			"writeValue": 1,
+			"componentType": "pushButton",
+			"position": [
+				46,
+				34
+			],
+			"componentIndex": 94,
+			"lockedTo": 88,
+			"size": [
+				6,
+				6
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				6,
+				6
+			],
+			"maxSize": [
+				6,
+				6
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"borderSize": 1,
+			"borderColor": "#EEEEEE",
+			"borderRadius": 1,
+			"backgroundColor": "#FFFFFF",
+			"componentType": "containerComponent",
+			"position": [
+				28,
+				47
+			],
+			"componentIndex": 95,
+			"lockedTo": -1,
+			"size": [
+				27,
+				37
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				2
+			],
+			"maxSize": [
+				100,
+				100
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "MOTOR STATE",
+			"variable": [
+				{
+					"symbol": "Motor.State",
+					"address": 536885068,
+					"type": "uint32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Center",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				29,
+				71
+			],
+			"componentIndex": 97,
+			"lockedTo": 95,
+			"size": [
+				5,
+				6
+			],
+			"value": [
+				7
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"content": "0 - FOC CLOSED LOOP\n1 - BRAKE BOOTSTRAP\n2 - STOP MOTOR\n3 - VFOPENLOOP RAMP UP\n5 - PRE POSITIONING\n6 - DCLINK OVER UNDER VOLTAGE\n7 - MCU SLEEP\n8 - TRAP PROTECTION\n10 - CATCH FREERUNNING\n13 - STALL\n14 - IPD\n15 - IPD TRANSITION",
+			"borderSize": 0,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				29,
+				48
+			],
+			"componentIndex": 110,
+			"lockedTo": 95,
+			"size": [
+				26,
+				19
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "UNDER/OVER VOLTAGE",
+			"variable": [
+				{
+					"symbol": "Motor.U_O_Voltage_Status",
+					"address": 536885190,
+					"type": "uint16_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 16
+				}
+			],
+			"maxVariables": 1,
+			"formula": "value > 0",
+			"activeColor": "#FF0000",
+			"inactiveColor": "#00FF0A",
+			"componentType": "ledIndicator",
+			"position": [
+				34,
+				65
+			],
+			"componentIndex": 112,
+			"lockedTo": 95,
+			"size": [
+				6,
+				10
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				5,
+				5
+			],
+			"maxSize": [
+				10,
+				10
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "SW OVERCURRENT",
+			"variable": [
+				{
+					"symbol": "Motor.SW_overcurrent_Status",
+					"address": 536885192,
+					"type": "uint16_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 16
+				}
+			],
+			"maxVariables": 1,
+			"formula": "value > 0",
+			"activeColor": "#FF0000",
+			"inactiveColor": "#00FF0A",
+			"componentType": "ledIndicator",
+			"position": [
+				34,
+				74
+			],
+			"componentIndex": 113,
+			"lockedTo": 95,
+			"size": [
+				6,
+				10
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				5,
+				5
+			],
+			"maxSize": [
+				10,
+				10
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "STALL DECTECTION",
+			"variable": [],
+			"maxVariables": 1,
+			"formula": "value > 0",
+			"activeColor": "#FF0000",
+			"inactiveColor": "#1FFF00",
+			"componentType": "ledIndicator",
+			"position": [
+				40,
+				65
+			],
+			"componentIndex": 114,
+			"lockedTo": 95,
+			"size": [
+				6,
+				10
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				5,
+				5
+			],
+			"maxSize": [
+				10,
+				10
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "HW OCP TRAP",
+			"variable": [],
+			"maxVariables": 1,
+			"formula": "value > 0",
+			"activeColor": "#FF0000",
+			"inactiveColor": "#00FF47",
+			"componentType": "ledIndicator",
+			"position": [
+				40,
+				74
+			],
+			"componentIndex": 115,
+			"lockedTo": 95,
+			"size": [
+				6,
+				10
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				5,
+				5
+			],
+			"maxSize": [
+				10,
+				10
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "SLEEP MODE",
+			"variable": [
+				{
+					"symbol": "Motor.sleepmode_status",
+					"address": 536885168,
+					"type": "uint32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"formula": "value > 0",
+			"activeColor": "#FF0000",
+			"inactiveColor": "#0CFF00",
+			"componentType": "ledIndicator",
+			"position": [
+				46,
+				65
+			],
+			"componentIndex": 117,
+			"lockedTo": 95,
+			"size": [
+				6,
+				10
+			],
+			"value": [
+				1
+			],
+			"minSize": [
+				5,
+				5
+			],
+			"maxSize": [
+				10,
+				10
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "POWER LIMIT",
+			"variable": [
+				{
+					"symbol": "Motor.power_limit_flag",
+					"address": 536885248,
+					"type": "uint32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"formula": "value > 0",
+			"activeColor": "#FF0000",
+			"inactiveColor": "#20FF00",
+			"componentType": "ledIndicator",
+			"position": [
+				46,
+				74
+			],
+			"componentIndex": 118,
+			"lockedTo": 95,
+			"size": [
+				6,
+				10
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				5,
+				5
+			],
+			"maxSize": [
+				10,
+				10
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"borderSize": 1,
+			"borderColor": "#EEEEEE",
+			"borderRadius": 1,
+			"backgroundColor": "#FFFFFF",
+			"componentType": "containerComponent",
+			"position": [
+				9,
+				86
+			],
+			"componentIndex": 120,
+			"lockedTo": -1,
+			"size": [
+				40,
+				28
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				2
+			],
+			"maxSize": [
+				100,
+				100
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"content": "DEBUGGING PARAMETERS",
+			"borderSize": 1,
+			"borderColor": "#FFFFFF",
+			"backgroundColor": "#FFFFFF",
+			"componentType": "textComponent",
+			"position": [
+				9,
+				88
+			],
+			"componentIndex": 121,
+			"lockedTo": 120,
+			"size": [
+				5,
+				13
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "Update PI Para",
+			"variable": [
+				{
+					"symbol": "Motor.uInspector_GUI_update_para",
+					"address": 536885104,
+					"type": "uint16_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 16
+				}
+			],
+			"maxVariables": 1,
+			"writeValue": 1,
+			"componentType": "pushButton",
+			"position": [
+				10,
+				74
+			],
+			"componentIndex": 123,
+			"lockedTo": 15,
+			"size": [
+				6,
+				6
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				6,
+				6
+			],
+			"maxSize": [
+				6,
+				6
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"content": "Update to flash \nafter motor stop & before motor start",
+			"borderSize": 2,
+			"borderColor": "#FF6B6B",
+			"backgroundColor": "#E6D8D8",
+			"componentType": "textComponent",
+			"position": [
+				17,
+				73
+			],
+			"componentIndex": 125,
+			"lockedTo": 15,
+			"size": [
+				9,
+				9
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				50,
+				50
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"borderSize": 4,
+			"borderColor": "#84FF4B",
+			"borderRadius": 24,
+			"backgroundColor": "#FFD8D8",
+			"componentType": "containerComponent",
+			"position": [
+				9,
+				73
+			],
+			"componentIndex": 127,
+			"lockedTo": 15,
+			"size": [
+				8,
+				8
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				2
+			],
+			"maxSize": [
+				100,
+				100
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "SPEED_ANGLE_CONV",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_PLL_ESTIMATOR.speed_angle_conversion_factor",
+					"address": 536884544,
+					"type": "int16_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 16
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				14,
+				87
+			],
+			"componentIndex": 129,
+			"lockedTo": 120,
+			"size": [
+				4,
+				8
+			],
+			"value": [
+				24468
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "SPEED_ANGLE_CONV_SCALE",
+			"variable": [
+				{
+					"symbol": "PMSM_FOC_PLL_ESTIMATOR.speed_angle_conversion_factor_scale",
+					"address": 536884546,
+					"type": "int16_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 16
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				14,
+				98
+			],
+			"componentIndex": 130,
+			"lockedTo": 120,
+			"size": [
+				4,
+				8
+			],
+			"value": [
+				7
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "ANGLE_SPEED_CONV",
+			"variable": [
+				{
+					"symbol": "nANGLE_TO_SPEED_CONV_FACTOR",
+					"address": 536885256,
+					"type": "uint32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				19,
+				87
+			],
+			"componentIndex": 131,
+			"lockedTo": 120,
+			"size": [
+				4,
+				8
+			],
+			"value": [
+				171
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "ANGLE_SPEED_CONV_SCALE",
+			"variable": [
+				{
+					"symbol": "nANGLE_TO_SPEED_CONV_FACTOR_SCALE",
+					"address": 536885540,
+					"type": "uint32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				19,
+				98
+			],
+			"componentIndex": 132,
+			"lockedTo": 120,
+			"size": [
+				4,
+				9
+			],
+			"value": [
+				15
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "CFR STARTUP",
+			"variable": [
+				{
+					"symbol": "cfr_startup_flag",
+					"address": 536884072,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				25,
+				87
+			],
+			"componentIndex": 133,
+			"lockedTo": 120,
+			"size": [
+				4,
+				9
+			],
+			"value": [
+				1
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "CFR ROTOR SPEED",
+			"variable": [
+				{
+					"symbol": "cfr_rotor_speed",
+					"address": 536884076,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				25,
+				98
+			],
+			"componentIndex": 134,
+			"lockedTo": 120,
+			"size": [
+				4,
+				9
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "DC LINK Voltage",
+			"variable": [
+				{
+					"symbol": "ADC.ADC_DCLink",
+					"address": 536884428,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Center",
+			"readFormula": "ADC.ADC_DCLink*0.00834",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "V",
+			"componentType": "numericIndicator",
+			"position": [
+				29,
+				31
+			],
+			"componentIndex": 137,
+			"lockedTo": 139,
+			"size": [
+				4,
+				12
+			],
+			"value": [
+				23.37702
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "",
+			"variable": [
+				{
+					"symbol": "ADC.ADC_DCLink",
+					"address": 536884428,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"numSections": 3,
+			"formula": "value*0.00834",
+			"upperLimits": [
+				16,
+				32,
+				48,
+				32,
+				25,
+				30,
+				700,
+				800,
+				900,
+				1000
+			],
+			"sectionColors": [
+				"#B7C797",
+				"#6DDB7D",
+				"#F07575",
+				"#67C57D",
+				"#65DE5E",
+				"#CD002F",
+				"#4CA460",
+				"#E16B25",
+				"#CD002F"
+			],
+			"componentType": "gaugeComponent",
+			"position": [
+				33,
+				29
+			],
+			"componentIndex": 138,
+			"lockedTo": 139,
+			"size": [
+				12,
+				16
+			],
+			"value": [
+				2803
+			],
+			"minSize": [
+				10,
+				12
+			],
+			"maxSize": [
+				19,
+				30
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"borderSize": 1,
+			"borderColor": "#EEEEEE",
+			"borderRadius": 1,
+			"backgroundColor": "#FFFFFF",
+			"componentType": "containerComponent",
+			"position": [
+				28,
+				27
+			],
+			"componentIndex": 139,
+			"lockedTo": -1,
+			"size": [
+				17,
+				20
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				2
+			],
+			"maxSize": [
+				100,
+				100
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "Motor.Speed_by_POT_PWM",
+			"variable": [
+				{
+					"symbol": "Motor.Speed_by_POT_PWM",
+					"address": 536885040,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				32,
+				87
+			],
+			"componentIndex": 140,
+			"lockedTo": 120,
+			"size": [
+				4,
+				9
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "Motor.Ref_Speed",
+			"variable": [
+				{
+					"symbol": "Motor.Ref_Speed",
+					"address": 536885032,
+					"type": "int32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				32,
+				98
+			],
+			"componentIndex": 141,
+			"lockedTo": 120,
+			"size": [
+				4,
+				9
+			],
+			"value": [
+				1030
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "Motor.Speed",
+			"variable": [
+				{
+					"symbol": "Motor.Speed",
+					"address": 536885036,
+					"type": "uint32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				37,
+				87
+			],
+			"componentIndex": 142,
+			"lockedTo": 120,
+			"size": [
+				4,
+				9
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"componentLabel": "Motor.power_limit_iq",
+			"variable": [
+				{
+					"symbol": "Motor.power_limit_iq",
+					"address": 536885244,
+					"type": "uint32_t",
+					"numElem": 1,
+					"isPointer": false,
+					"numBits": 32
+				}
+			],
+			"maxVariables": 1,
+			"isReadonly": true,
+			"isUIParameter": false,
+			"uiParameterId": "",
+			"min": 0,
+			"max": 100,
+			"textAlign": "Right",
+			"readFormula": "",
+			"writeFormula": "",
+			"disableFormula": "",
+			"displayFormula": "",
+			"unit": "",
+			"componentType": "numericIndicator",
+			"position": [
+				43,
+				87
+			],
+			"componentIndex": 143,
+			"lockedTo": 120,
+			"size": [
+				4,
+				9
+			],
+			"value": [
+				32767
+			],
+			"minSize": [
+				4,
+				4
+			],
+			"maxSize": [
+				7,
+				15
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"separatorColor": "#000",
+			"orientation": "horizontal",
+			"width": 1,
+			"componentType": "separatorComponent",
+			"position": [
+				22,
+				86
+			],
+			"componentIndex": 144,
+			"lockedTo": 120,
+			"size": [
+				4,
+				29
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				2
+			],
+			"maxSize": [
+				4,
+				100
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"separatorColor": "#000",
+			"orientation": "horizontal",
+			"width": 1,
+			"componentType": "separatorComponent",
+			"position": [
+				28,
+				86
+			],
+			"componentIndex": 145,
+			"lockedTo": 120,
+			"size": [
+				4,
+				29
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				2
+			],
+			"maxSize": [
+				4,
+				100
+			]
+		},
+		{
+			"tabName": "Workspace1",
+			"separatorColor": "#000",
+			"orientation": "horizontal",
+			"width": 1,
+			"componentType": "separatorComponent",
+			"position": [
+				40,
+				86
+			],
+			"componentIndex": 146,
+			"lockedTo": 120,
+			"size": [
+				4,
+				29
+			],
+			"value": [
+				0
+			],
+			"minSize": [
+				4,
+				2
+			],
+			"maxSize": [
+				4,
+				100
+			]
+		}
+	],
+	"definitions": [],
+	"tabs": [
+		"Workspace1"
+	],
+	"deviceName": "XMC1302",
+	"elfPath": "C:\\Project_Ceiling_Fan\\BB_speed_Nov_2024_repo\\pss-sin-sis-mc_ceilingfan_xmc1\\Scaling_fixes\\Debug\\CF_FOC_XMC13_36WBLDC.elf",
+	"oscilloscopeState": [
+		{
+			"symbol": "ProbeScope_Mode",
+			"value": 2
+		},
+		{
+			"symbol": "ProbeScope_TrigSlope",
+			"value": 1
+		},
+		{
+			"symbol": "ProbeScope_SamplingClkDiv",
+			"value": 20
+		},
+		{
+			"symbol": "ProbeScope_TrigHoldOff",
+			"value": 0
+		},
+		{
+			"symbol": "ProbeScope_TrigChSel",
+			"value": 1
+		},
+		{
+			"symbol": "ProbeScope_TrigDispPos",
+			"value": 1
+		},
+		{
+			"symbol": "ACMP2_init",
+			"value": 1,
+			"type": "Channel"
+		},
+		{
+			"symbol": "ADC.ADC3Trig_Point",
+			"value": 2,
+			"type": "Channel"
+		},
+		{
+			"symbol": "ADC.ADC4Trig_Point",
+			"value": 3,
+			"type": "Channel"
+		},
+		{
+			"symbol": "ADC.ADCTrig_Point",
+			"value": 4,
+			"type": "Channel"
+		},
+		{
+			"symbol": "",
+			"value": 5,
+			"type": "Channel"
+		},
+		{
+			"symbol": "",
+			"value": 6,
+			"type": "Channel"
+		},
+		{
+			"symbol": "",
+			"value": 7,
+			"type": "Channel"
+		},
+		{
+			"symbol": "",
+			"value": 8,
+			"type": "Channel"
+		}
+	]
+}
